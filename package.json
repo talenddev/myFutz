@@ -1,0 +1,10 @@
+{
+	"name":"MyFutz",
+	"description":"myFutz test",
+	"version":"0.0.1",
+	"private":"true",
+	"dependencies":{
+		"express":"3.3.1",
+		"ejs":"*"
+	}
+}
