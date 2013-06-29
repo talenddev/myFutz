@@ -11,6 +11,7 @@ app.get('/send/:text(*)', function(req, res){
 });
 
 if (!module.parent) {
-	app.listen(3000);
-	console.log('Express app started on port 3000');
+  var port =80;
+	app.listen(port);
+	console.log('Express app started on port '+port);
 }
