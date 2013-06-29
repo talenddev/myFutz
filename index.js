@@ -7,6 +7,7 @@ app.set('view engine','html');
 
 app.get('/send/:text(*)', function(req, res){
 	var text = req.params.text;
+  res.send("Received "+text);
 	console.log("Received "+text);
 });
 
