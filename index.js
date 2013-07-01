@@ -8,6 +8,7 @@ app.set('view engine','html');
 app.get('/send/:text(*)', function(req, res){
 	var text = req.params.text;
   res.render('received', {
+    tile :'Text received',
     message : text
   });
 	console.log("Received "+text);
